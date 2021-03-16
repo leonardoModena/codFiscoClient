@@ -1,5 +1,8 @@
-<nav>
-    <a routerLink='/top'> vai ciaooo</a>
+<nav *ngIf="nav">
+    <button (click)="back()" routerLink='/index'><span class="material-icons">
+        arrow_back_ios
+        </span>
+    </button>
 </nav>
 
 

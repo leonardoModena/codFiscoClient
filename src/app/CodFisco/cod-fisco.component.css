@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.tessera {
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 317px;
+    margin: auto;
+    background-image: url(../../assets/Tessera_Sanitaria_Italia-Fronte.jpg);
+}
+
+.contOpt {
+    margin-bottom: 4rem;
+}

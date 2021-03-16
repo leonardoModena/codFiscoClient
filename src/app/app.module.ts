@@ -7,18 +7,21 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { importType } from '@angular/compiler/src/output/output_ast';
 import { CodFiscoComponent } from './CodFisco/cod-fisco.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { ShareService } from "./service/share/share.service";
 
 @NgModule({
   declarations: [
     AppComponent,
-    CodFiscoComponent
+    CodFiscoComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [ShareService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
